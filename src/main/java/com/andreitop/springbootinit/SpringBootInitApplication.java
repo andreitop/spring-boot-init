@@ -1,6 +1,5 @@
 package com.andreitop.springbootinit;
 
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
@@ -16,7 +15,6 @@ public class SpringBootInitApplication extends SpringBootServletInitializer {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootInitApplication.class, args);
     }
 
     @RestController
